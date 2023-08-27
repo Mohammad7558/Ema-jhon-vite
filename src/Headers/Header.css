@@ -1,0 +1,13 @@
+.header{
+    background-color: #1C2B35;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+ul > li {
+    display: inline-block;
+}
+ul > li > a {
+    color: white;
+    padding: 0 20px;
+}
