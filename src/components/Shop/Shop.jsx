@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Shop.css'
+import './Shop.css';
 import Products from '../Products/Products';
 import Cart from '../Cart/Cart';
 import { addToDb, getShoppingCart } from '../../utilities/fakedb';
@@ -13,7 +13,6 @@ const Shop = () => {
         setCart(newCart);
         addToDb(selectedProduct.id)
     }
-
     useEffect(() => {
         fetch('products.json')
         .then(res => res.json())
