@@ -5,7 +5,7 @@ const Products = ({ product, handleAddToCart }) => {
 
   return (
     <div className="product-card">
-      <img className="product-img" src={img} alt="" />
+      <img className="product-img" src={img} alt="Product img" />
       <div className="product-details">
         <h1 className="product-name">{name}</h1>
         <h3>Price: {price}</h3>
